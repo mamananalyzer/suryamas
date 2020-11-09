@@ -29,6 +29,7 @@ Route::get('/email', function () {
 Route::get('/', 'BaseController@root');                 //home
 // Route::get('/home', 'BaseController@home');                 //home
 Route::get('/about', 'BaseController@about');           //about
+Route::get('/clients', 'BaseController@client');           //client
 Route::get('/principal', 'BaseController@principal');   //principal
 Route::resource('/cart', 'CartsController');            //cart
 
@@ -98,7 +99,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::delete('/admincarts/{cart}', 'AdmincartsController@destroy');
     Route::patch('/admincarts/{admincart}', 'AdmincartsController@update');
 });
-Route::group(['middleware' => ['auth', 'checkRole:admin,user']], function () {
+// Route::group(['middleware' => ['auth', 'checkRole:admin,user']], function () {
 
     Route::get('/product/{display}', 'DisplaysController@show');    //display detail individual product
 
@@ -111,7 +112,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,user']], function () {
     Route::post('cart/send', 'CartsController@store');
     Route::delete('/carts/{cart}', 'CartsController@destroy');
     Route::patch('/carts/{cart}', 'CartsController@update');
-});
+// });
 
 
 Route::get('/receipt', function () {

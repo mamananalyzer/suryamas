@@ -22,4 +22,8 @@ class BaseController extends Controller
     {
         return view ('navbar/principal');
     }
+    public function client()
+    {
+        return view ('navbar/clients');
+    }
 }

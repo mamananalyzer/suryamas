@@ -279,7 +279,7 @@
 </head>
 <body>
 
-    <h3> Hai Amptron Sales,   </h3>
+    <h3> Hai Suryamas Sales,   </h3>
     <h4>Seseorang mengirim pesan</h4>
     <br>
     <table class="table">
@@ -319,7 +319,7 @@
                 <p>{{ $phone  }}</p>
             </td>
         </tr>
-        <tr>
+        {{-- <tr>
             <td scope="col-2">
                 <p>Address</p>
             </td>
@@ -327,7 +327,7 @@
             <td>
                 <p>{{ $Address1  }}, {{ $city  }}, {{ $postcode  }}</p>
             </td>
-        </tr>
+        </tr> --}}
         <tr>
             <td scope="col-2">
                 <p>Product Type</p>

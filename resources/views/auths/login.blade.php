@@ -36,7 +36,7 @@
 					<div class="left">
 						<div class="content">
 							<div class="header">
-								<div class="logo text-center"><img width="150" src="{{asset('img/aii.png')}}" alt="Klorofil Logo"></div>
+								<div class="logo text-center"><img width="300" src="{{asset('img/sep.jpg')}}" alt="Klorofil Logo"></div>
 								<p class="lead">Login</p>
 							</div>
                             <form class="form-auth-small" action="{{url('/postlogin')}}" method="post">
@@ -53,7 +53,7 @@
 
 								</div>
 								<button type="submit" class="btn btn-primary btn-lg btn-block">LOGIN</button>
-								<a href="{{ url('/register') }}" type="submit" class="btn btn-success btn-lg btn-block">REGISTER</a>
+								{{-- <a href="{{ url('/register') }}" type="submit" class="btn btn-success btn-lg btn-block">REGISTER</a> --}}
 
 							</form>
 						</div>
@@ -63,7 +63,7 @@
 						<div class="content text">
                             <h1 class="heading">Login Page</h1>
                             <br>
-							<p>by Amptron Instrumindo Developers</p>
+							<p>by Suryamas ELsindo Developers</p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
