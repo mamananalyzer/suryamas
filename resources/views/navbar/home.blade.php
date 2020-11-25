@@ -89,15 +89,6 @@
                 </div>
                 <div class="col-md">
                     <div class="row">
-                        {{-- <div class="col-md card border-light img-hover-zoom-sm img-hover-zoom--xyz">
-                            <a href="{{url('services')}}">
-                                <img src="{{asset('image/product/2.png')}}" style="width: 100%;" alt="">
-                                <div class="bottom-left-sm">
-                                    <h5 class="left-sm">SERVICES</h5>
-                                    <p class="left-sm">TRANSPORT AND LOGISTIC</p>
-                                </div>
-                            </a>
-                        </div> --}}
                         <div class="col-md card border-light img-hover-zoom-sm img-hover-zoom--xyz">
                             <a href="{{url('clients')}}">
                                 <img src="{{asset('image/client/1.png')}}" style="width: 100%;" alt="">
@@ -124,13 +115,15 @@
         </div>
     </div>
 
+    <br>
+
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-lg-4">
                 <a href="{{url('/product?brand=abb')}}">
                 <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
-                    <img width="140%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/abb.png')}}" alt="Image Description">
-                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Product name</h4>
+                    <img width="100%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/abb.png')}}" alt="Image Description">
+                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">ABB</h4>
                     <p>Finding your perfect product</p>
                 </article>
                 </a>
@@ -140,7 +133,7 @@
                 <a href="{{url('/product?brand=elesol')}}">
                 <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
                     <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/elesol.png')}}" alt="Image Description">
-                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Product name</h4>
+                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Elesol</h4>
                     <p>Finding your perfect product</p>
                 </article>
                 </a>
@@ -150,7 +143,7 @@
                 <a href="{{url('/product?brand=ge')}}">
                 <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
                     <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/ge.png')}}" alt="Image Description">
-                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Product name</h4>
+                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">GE</h4>
                     <p>Finding your perfect product</p>
                 </article>
                 </a>
@@ -161,7 +154,7 @@
                 <a href="{{url('/product?brand=hilkar')}}">
                 <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
                     <img width="100%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/hilkar.png')}}" alt="Image Description">
-                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Product name</h4>
+                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Hilkar</h4>
                     <p>Finding your perfect product</p>
                 </article>
                 </a>
@@ -171,7 +164,7 @@
                 <a href="{{url('/product?brand=ritz')}}">
                 <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
                     <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/ritz.png')}}" alt="Image Description">
-                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Product name</h4>
+                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Ritz</h4>
                     <p>Finding your perfect product</p>
                 </article>
                 </a>
@@ -181,7 +174,7 @@
                 <a href="{{url('/product?brand=te')}}">
                 <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
                     <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/te.png')}}" alt="Image Description">
-                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Product name</h4>
+                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">TE</h4>
                     <p>Finding your perfect product</p>
                 </article>
                 </a>
@@ -202,57 +195,57 @@
               <div class="carousel-item active">
                 <img height="430px" src="{{asset('img/newproduct/CR-M RELAY.png')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  {{-- <h5>First slide label</h5>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> --}}
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="430px" src="{{asset('img/newproduct/DBL.jpg')}}" class="d-block w-100" alt="{{asset('img/carousel/05. Relay GE (1).jpg')}}">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  {{-- <h5>Second slide label</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> --}}
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="430px" src="{{asset('img/newproduct/DBL.png')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  {{-- <h5>Third slide label</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> --}}
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="430px" src="{{asset('img/newproduct/ELESOL.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  {{-- <h5>Third slide label</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> --}}
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="430px" src="{{asset('img/newproduct/HDC (1).jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  {{-- <h5>Third slide label</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> --}}
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="430px" src="{{asset('img/newproduct/HDC.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  {{-- <h5>Third slide label</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> --}}
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="430px" src="{{asset('img/newproduct/NGR.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  {{-- <h5>Third slide label</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> --}}
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="430px" src="{{asset('img/newproduct/PLUG & SOCKET.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  {{-- <h5>Third slide label</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> --}}
                 </div>
               </div>
             </div>

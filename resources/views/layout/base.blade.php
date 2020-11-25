@@ -15,6 +15,19 @@
     <link href="{{asset('https://fonts.googleapis.com/css?family=Lora&display=swap')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css')}}">
 
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/589823a04dae2d0a6f9fdd49/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
     <link rel="icon" href="{{url('img/sep.jpg')}}">
     <title>@yield('title')</title>
@@ -46,7 +59,7 @@
                             </div>
                         </div>
                     </li> --}}
-                    <li class="nav-item mr-4"><a class="panel-collapse nav-link" href="{{url('/clients')}}"><h5>Clients & Partners</h5></a></li>
+                    <li class="nav-item mr-4"><a class="panel-collapse nav-link" href="{{url('/contact')}}"><h5>Contact Us</h5></a></li>
                     {{-- <li class="nav-item mr-4"><a class="nav-link" href="{{url('/contact')}}"><h5>Contact Us</h5></a></li> --}}
                     <li class="nav-item mr-4"><a class="nav-link" href="{{url('/product')}}"><h5>Product</h5></a></li>
                 </ul>
@@ -102,14 +115,15 @@
             </div>
 
         </div>
-        <div class="col-md-3">
-            <h6>LATEST NEWS</h6>
+        <div class="col-md-6">
+            <h6>MAPS</h6>
             <hr class="bg-warning">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.540723636199!2d106.73745131413733!3d-6.192150662388513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f76ef0b802cd%3A0xb05189fedb7cadb6!2sPT.%20Suryamas%20elsindo%20primatama!5e0!3m2!1sen!2sid!4v1606273852027!5m2!1sen!2sid" width="600" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-        <div class="col-md-3">
+        {{-- <div class="col-md-3">
             <h6>SITEMAP</h6>
             <hr class="bg-warning">
-        </div>
+        </div> --}}
         <div class="col-md-3">
             <h6>CONTACT US</h6>
             <hr class="bg-warning">
