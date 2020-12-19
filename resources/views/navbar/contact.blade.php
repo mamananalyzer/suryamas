@@ -4,58 +4,55 @@
 
 @section('container')
 
-
-    <div class="container mt-5">
-        <h5>Contact Our Team</h5>
-        <h3>Here you can send us an inquiry concerning general questions about Amptron.</h3>
-        <br>
-        <h6>* Required</h6>
-        <hr>
-    </div>
-    <div class="container">
-        <form action=" {{ url('contact/send') }}" method="POST" onsubmit="if(document.getElementById('agree').checked) { return true; }
+<div class="container text-left pt-5">
+    <form action=" {{ url('email/send') }}" method="POST" onsubmit="if(document.getElementById('agree').checked) { return true; }
         else {
             alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy');
             return false;
         }">
         {{ csrf_field() }}
-            <label for="exampleInputName">Name *</label>
-            <div class="form-row">
-                <div class="col">
-                <input type="text" class="form-control" placeholder="First name" name="name" required>
-                </div>
-                <div class="col">
-                <input type="text" class="form-control" placeholder="Last name" name="name2" required>
-                </div>
-            </div>
+        <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="name" name="name" class="form-control" id="name" aria-describedby="emailHelp" value="" required>
+        </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Email *</label>
-            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" value="" aria-describedby="emailHelp" required>
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="row">
             <div class="col-6 form-group">
                 <label for="Company">Company *</label>
-                <input type="company" name="company" class="form-control" id="Company" placeholder="PT. Amptron Instrumindo" required>
+                <input type="company" name="company" class="form-control" id="Company" value="" placeholder="PT. Suryamas Elsindo" required>
             </div>
             <div class="col-6 form-group">
                 <label for="PhoneNumber">Phone *</label>
-                <input type="tel" name="phone" class="form-control" id="PhoneNumber" placeholder="+62 000" required>
+                <input type="tel" name="phone" class="form-control" id="PhoneNumber" value="" placeholder="+62 000" required>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6 form-group">
-                <label for="Street and Number">Street and Number *</label>
-                <input type="Street and Number" name="Address1" class="form-control" id="Street and Number" placeholder="Address" required>
-            </div>
-            <div class="col-3 form-group">
-                <label for="City">City *</label>
-                <input type="city" name="city" class="form-control" id="City" placeholder="City" required>
-            </div>
-            <div class="col-3 form-group">
-                <label for="Post Code">Post Code *</label>
-                <input type="postcode" name="postcode" class="form-control" id="Post Code" placeholder="Post Code" required>
-            </div>
+        <div class="form-group">
+            <label for="product">Product *</label>
+            <input type="product" name="product" class="form-control" id="product" aria-describedby="emailHelp" placeholder="..." required>
+        </div>
+        <div class="form-group">
+            <label for="description">Description *</label>
+            <input type="description" name="description" class="form-control" id="description" aria-describedby="emailHelp" placeholder="..." required>
+        </div>
+        {{-- <div class="form-group sr-only">
+            <label for="userid">User ID *</label>
+            <input type="userid" name="userid" class="form-control" id="userid" aria-describedby="emailHelp" value="" required>
+        </div> --}}
+        {{-- <div class="form-group sr-only">
+            <label for="price">Price *</label>
+            <input type="price" name="price" class="form-control" id="price" aria-describedby="emailHelp" value="{{ $display->price }}" required>
+        </div> --}}
+        <div class="form-group sr-only">
+            <label for="status">Status *</label>
+            <input type="status" name="status" class="form-control" id="status" aria-describedby="emailHelp" value="waiting" required>
+        </div>
+        <div class="form-group">
+            <label for="quantity">Quantity *</label>
+            <input type="number" name="quantity" class="form-control" id="quantity" aria-describedby="emailHelp" required>
         </div>
         <div class="form-group">
             <label for="exampleFormControlTextarea1">Your Message *</label>
@@ -65,9 +62,15 @@
         <label for="agree">I have read and agree to the Terms and Conditions and Privacy Policy</label>
         <br>
         <br>
-        <input class="btn btn-success mb-4" type="submit" name="submit" value="Send" />
-        </form>
-    </div>
+        <input type="hidden" name="" value="{{date_default_timezone_set('Asia/Jakarta')}}">
+        <input type="hidden" name="date" value="{{'Date : ' . date('d-m-Y')}}">
+        <input type="hidden" name="time" value="{{'Time : ' . date('H:i:s')}}">
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <input class="btn btn-success" type="submit" name="submit" value="Request !" />
+        </div>
+    </form>
+</div>
 
 @endsection
 

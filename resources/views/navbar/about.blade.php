@@ -284,8 +284,111 @@
         </div>
     </div>
 </section>
+<section>
+    <div class="section container pt-3">
+        <div class="row">
+            <div class="col text-center">
+              <h2>Our Customer</h2>
+              <hr>
+            </div>
+        </div>
+        <div class="portfolio" id="partner">
+          <div class="row" id="">
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/pln.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/siemens.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/abb.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/schneider.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/tamco.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/techsea.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/mitraida.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/gspe.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/altrak.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/exabb.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/gae.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+              <div class="col-sm-2 text-center thumbnail">
+                  <div class="card border-light">
+                      <img src="img/partner/ge.png" width="100%" height="100%" class="card-img-top" alt="...">
+                      <hr>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 text-center thumbnail">
+                <div class="card border-light">
+                    <img src="img/partner/ume.png" width="100%" height="100%" class="card-img-top" alt="...">
+                    <hr>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center thumbnail">
+                <div class="card border-light">
+                    <img src="img/partner/indokordsa.png" width="100%" height="100%" class="card-img-top" alt="...">
+                    <hr>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
 
-<section class="clients cid-qyjRltyeJh" id="clients-f" data-rv-view="5188">
+
+{{-- <section class="clients cid-qyjRltyeJh" id="clients-f" data-rv-view="5188">
 
 
 
@@ -347,7 +450,7 @@
 
         </div>
     </div>
-</section>
+</section> --}}
 
 <section class="features16 cid-qyS1k5hHnP" id="features16-g" data-rv-view="5202">
 

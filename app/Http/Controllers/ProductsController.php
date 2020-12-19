@@ -53,12 +53,11 @@ class ProductsController extends Controller
             'brand' => 'required',
             'categorie' => 'required',
             'type' => 'required|unique:products',
-            'price' => 'required',
+            // 'price' => 'required',
             'picture' => 'required|unique:products',
             'description' => 'required',
             'listdescription' => 'required',
-            'datasheet' => 'required',
-            'usermanual' => 'required'
+            'datasheet' => 'required'
         ]);
 
         $image=$request->picture;
@@ -116,12 +115,11 @@ class ProductsController extends Controller
             'brand' => 'required',
             'categorie' => 'required',
             'type' => 'required',
-            'price' => 'required',
+            // 'price' => 'required',
             'picture' => 'required|unique:products',
             'description' => 'required',
             'listdescription' => 'required',
-            'datasheet' => 'required',
-            'usermanual' => 'required'
+            'datasheet' => 'required'
         ]);
         // dd($request->all());
         $product = Product::find($id);

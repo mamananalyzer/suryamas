@@ -71,7 +71,7 @@
                 </div>
                 <a href="{{$product->datasheet}}"><button type="button" class="btn btn-primary">Datasheet</button></a>
                 <a href="{{$product->usermanual}}"><button type="button" class="btn btn-primary">User Manual</button></a>
-                <a href="{{$product->modbus}}"><button type="button" class="btn btn-primary">Modbus Map</button></a>
+                {{-- <a href="{{$product->modbus}}"><button type="button" class="btn btn-primary">Modbus Map</button></a> --}}
                 <a href="{{$product->software}}"><button type="button" class="btn btn-primary">Software</button></a>
                 <br>
                 <br>

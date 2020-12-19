@@ -49,7 +49,7 @@
                     </div>
                 @enderror
             </div>
-            <div class="form-group">
+            {{-- <div class="form-group">
                 <label for="price">Price *</label>
                 <div class="row">
                     <div class="col-1 pt-1 text-right">
@@ -64,7 +64,7 @@
                         {{ $message }}
                     </div>
                 @enderror
-            </div>
+            </div> --}}
             <div class="form-group">
                 <label for="picture">Picture *</label>
                 <input type="file" class="form-control @error('picture') is-invalid @enderror" id="picture" placeholder="picture" name="picture" value="{{ old('picture')}}">
@@ -105,7 +105,7 @@
                     </div>
                 @enderror
             </div>
-            <div class="form-group">
+            {{-- <div class="form-group">
                 <label for="modbus">Link Modbus Map *</label>
                 <input type="text" class="form-control @error('modbus') is-invalid @enderror" id="modbus" placeholder="Link Modbus Map" name="modbus" value="{{ old('modbus')}}">
                 @error('modbus')
@@ -113,7 +113,7 @@
                         {{ $message }}
                     </div>
                 @enderror
-            </div>
+            </div> --}}
             <div class="form-group">
                 <label for="software">Link Software *</label>
                 <input type="text" class="form-control @error('software') is-invalid @enderror" id="software" placeholder="Link Software" name="software" value="{{ old('software')}}">

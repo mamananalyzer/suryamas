@@ -9,12 +9,12 @@ use App\Contact;
 
 class ContactController extends Controller
 {
-    public function index(){
-        return view('underconstruction');
-    }
     // public function index(){
-    //     return view('navbar/contact');
+    //     return view('underconstruction');
     // }
+    public function index(){
+        return view('navbar/contact');
+    }
     /**
      * Display a listing of the resource.
      *
