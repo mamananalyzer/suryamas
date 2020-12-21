@@ -5,162 +5,84 @@
 @section('container')
 
     <div class="section container">
-      <div class="row">
-        <div class="col text-center">
-          <h2>Our Brand</h2>
-          <hr>
+        <div class="row">
+            <div class="col text-center">
+            <h2>Our Brand</h2>
+            <hr>
+            </div>
         </div>
-      </div>
-      <div class="" id="brand">
-            <div class="row align-items-start">
-                <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="abb" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/abb.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>Digital Power AC & DC Power Meter, Mult-Circuit Energy Monitoring and AcuCT </p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <a href="{{url('/product?brand=abb')}}">
+                    <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
+                        <img width="100%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/abb.png')}}" alt="Image Description">
+                        <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">ABB</h4>
+                        <p>Air Circuit Breaker, MCCB, Contactor, Minature Relay CRMX, Capacitor Bank, Motor Starter, NAL LBS, Relay Protection, M4M metering & etc</p>
+                    </article>
+                    </a>
                 </div>
-                <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="elesol" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/elesol.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>LED <br> Backlight <br> Annunciators</p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
+    
+                <div class="col-md-6 col-lg-3">
+                    <a href="{{url('/product?brand=elesol')}}">
+                    <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
+                        <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/elesol.png')}}" alt="Image Description">
+                        <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Elesol (Electrical Solution)</h4>
+                        <p>Our saving energy & efficiency solution to reduce electrical consumption up to 15% of billing expenses by filtering noise and electromagnetic waves around the area</p>
+                    </article>
+                    </a>
                 </div>
-                <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="ge" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/ge.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>Instrument displays <br> Hour counters <br> Pulse counters</p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
+    
+                <div class="col-md-6 col-lg-3">
+                    <a href="{{url('/product?brand=ge')}}">
+                    <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
+                        <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/ge.png')}}" alt="Image Description">
+                        <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Ge Grid Solution - Alstom</h4>
+                        <p>Relay Protection & MMLG MMLB Test Block</p>
+                    </article>
+                    </a>
                 </div>
-                <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="hilkar" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/hilkar.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>Perfection in Automation Complete automation solution from Austria for over 30 years</p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="{{url('/product?brand=hilkar')}}">
+                    <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
+                        <img width="100%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/hilkar.png')}}" alt="Image Description">
+                        <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Hilkar</h4>
+                        <p>Neutral Grounding Resistor (NGR) & MV-HV Reactors</p>
+                    </article>
+                    </a>
                 </div>
             </div>
-            <div class="w-100"></div>
-            <div class="row align-items-start">
-                <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="ritz" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/ritz.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>Programmable <br> Power Tranducers <br> Barriers, Transmitters</p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
+            <div class="row mt-2">
+    
+                <div class="col-md-6 col-lg-3">
+                    <a href="{{url('/product?brand=ritz')}}">
+                    <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
+                        <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/ritz.png')}}" alt="Image Description">
+                        <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">RITZ Instrument Transformer ( ex MWB )</h4>
+                        <p>Medium Voltage Current & Voltage Transformer, Solid Insulated Busbar System ( MV Busbar), MV Dry Type Power Transformer & Sensors Transformer CVT</p>
+                    </article>
+                    </a>
                 </div>
-                <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="te" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/te.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>Monitoring <br> & <br> Control Relays</p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
+    
+                <div class="col-md-6 col-lg-3">
+                    <a href="{{url('/product?brand=te')}}">
+                    <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
+                        <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/te.png')}}" alt="Image Description">
+                        <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">TE Connectivity</h4>
+                        <p>Entrelec Terminal Blocks ( Screw Clamp - PI Spring), Essailec Test Blocks (Tceva - Cceva), Heavy Duty Connector & Distribution Block (DBL).</p>
+                    </article>
+                    </a>
                 </div>
-                {{-- <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="emh" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/emh.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>Smart Meter Gateway <br> Special meters <br> Domestic meters & smart meters</p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="{{url('/product?brand=other')}}">
+                    <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
+                        <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/other.png')}}" alt="Image Description">
+                        <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Other</h4>
+                        <p>Orvibo Smart Home Automation, Schneider, Low- Medium Voltage switchgear components and electrical building maintenance.</p>
+                    </article>
+                    </a>
                 </div>
-                <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="leipole" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/leipole.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>Fan Filter <br> Enclosure Thermostat <br> Enclosure Hygrostat</p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
-                </div> --}}
             </div>
-            <div class="w-100"></div>
-            {{-- <div class="row">
-                <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="monarch" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/monarch.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>Stroboscope, Tachometer <br> Vibration Measurement <br> Process Chart Recorder</p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="Rishabh" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/rishabh.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>Multifunction <br> Smart Demand Controller <br> Power Quality Analyzer</p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-sm-3 text-center thumbnail">
-                    <div class="card border-light">
-                        <form method="GET" action="{{ url('/product') }}" class="form-inline my-2 my-lg-0 offset-md-2 mr-2">
-                            <input name="brand" class="form-control mr-sm-2" value="wharton" placeholder="Search" aria-label="Search" hidden>
-                            <button class="btn btn-outline-info border-0 my-2 my-sm-0" type="submit">
-                                <img src="img/principal/wharton.png" width="100%" height="100%" class="card-img-top" alt="...">
-                                <p>Digital Clocks <br> Time Information Displays <br> for Professional Applications</p>
-                                <hr>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div> --}}
         </div>
     </div>
-
-    {{-- <div class="row pt-4 offset-md-1 container" id="about">
-      <div class="col-md-5 pKiri">
-
-      </div>
-      <div class="col-md-6 pKanan" id="">
-
-      </div>
-    </div> --}}
 @endsection

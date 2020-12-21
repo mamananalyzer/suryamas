@@ -117,6 +117,18 @@
                 <p>Saturday - Sunday : Closed</p>
               </div>
             </div>
+            <div class="row">
+              <div class="col toped">
+                <a href="https://www.tokopedia.com/suryamasel">
+                <img src="{{asset('img/toped.jpg')}}" width="110px" alt="">
+                </a>
+              </div>
+              <div class="col wa">
+                <a href="https://api.whatsapp.com/send?phone=6281285275353">
+                <img src="{{asset('img/wa.jpg')}}" width="110px" alt="">
+                </a>
+              </div>
+            </div>
 
         </div>
         <div class="col-md-6">

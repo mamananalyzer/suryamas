@@ -20,36 +20,36 @@
               <div class="carousel-item active">
                 <img height="500px" src="{{asset('img/carousel/01. TE Test Block.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-dark">
-                  <h5>TE Entrelec Test Block</h5>
-                  <p>TCEVA & CCEVA</p>
+                  <h1 class="display-3 text-dark bg-light">TE Entrelec Test Block</h1>
+                  <p class="lead text-primary">TCEVA & CCEVA</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="500px" src="{{asset('img/carousel/02. ABB LV.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-dark">
-                  <h5>ABB Low Voltage Product</h5>
-                  <p>Circuit Breaker, Contactor, Relay CRM, Plug & Socket, ETC</p>
+                  <h1 class="display-3 text-dark bg-light">ABB Low Voltage Product</h5>
+                  <p class="lead text-primary">Circuit Breaker, Contactor, Relay CRM, Plug & Socket, ETC</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="500px" src="{{asset('img/carousel/03. SNK SNA SERIES.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-dark">
-                  <h5>TE Entrelec Terminal Block</h5>
-                  <p>SNK - SNA - PI Spring</p>
+                  <h1 class="display-3 text-dark bg-light">TE Entrelec Terminal Block</h5>
+                  <p class="lead text-primary">SNK - SNA - PI Spring</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="500px" src="{{asset('img/carousel/04. RITZ INS. TRANS.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-dark">
-                  <h5>RITZ Instrument Transformer (Formerly WTW, MWB)</h5>
-                  <p>Medium Voltage (3,3 - 72kV) Current - Voltage Transformer, SIS Insulated Busbar, Dry Type Power Transformer</p>
+                  <h1 class="display-3 text-dark bg-light">RITZ Instrument Transformer (Formerly WTW, MWB)</h5>
+                  <p class="lead text-primary">Medium Voltage (3,3 - 72kV) Current - Voltage Transformer, SIS Insulated Busbar, Dry Type Power Transformer</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="500px" src="{{asset('img/carousel/05. Relay GE (1).jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-dark">
-                  <h5>GE Grids Solution (Alstom)</h5>
-                  <p>Transmision & Distribution Protection Relay</p>
+                  <h1 class="display-3 text-dark bg-light">GE Grids Solution (Alstom)</h5>
+                  <p class="lead text-primary">Transmision & Distribution Protection Relay</p>
                 </div>
               </div>
             </div>
@@ -121,61 +121,61 @@
         <div class="row">
             <div class="col-md-6 col-lg-4">
                 <a href="{{url('/product?brand=abb')}}">
-                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
+                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
                     <img width="100%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/abb.png')}}" alt="Image Description">
                     <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">ABB</h4>
-                    <p>Finding your perfect product</p>
+                    <p>Air Circuit Breaker, MCCB, Contactor, Minature Relay CRMX, Capacitor Bank, Motor Starter, NAL LBS, Relay Protection, M4M metering & etc</p>
                 </article>
                 </a>
             </div>
 
             <div class="col-md-6 col-lg-4">
                 <a href="{{url('/product?brand=elesol')}}">
-                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
+                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
                     <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/elesol.png')}}" alt="Image Description">
-                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Elesol</h4>
-                    <p>Finding your perfect product</p>
+                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Elesol (Electrical Solution)</h4>
+                    <p>Our saving energy & efficiency solution to reduce electrical consumption up to 15% of billing expenses by filtering noise and electromagnetic waves around the area</p>
                 </article>
                 </a>
             </div>
 
             <div class="col-md-6 col-lg-4">
                 <a href="{{url('/product?brand=ge')}}">
-                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
+                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
                     <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/ge.png')}}" alt="Image Description">
-                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">GE</h4>
-                    <p>Finding your perfect product</p>
+                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Ge Grid Solution - Alstom</h4>
+                    <p>Relay Protection & MMLG MMLB Test Block</p>
                 </article>
                 </a>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-2">
             <div class="col-md-6 col-lg-4">
                 <a href="{{url('/product?brand=hilkar')}}">
-                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
+                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
                     <img width="100%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/hilkar.png')}}" alt="Image Description">
                     <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Hilkar</h4>
-                    <p>Finding your perfect product</p>
+                    <p>Neutral Grounding Resistor (NGR) & MV-HV Reactors</p>
                 </article>
                 </a>
             </div>
 
             <div class="col-md-6 col-lg-4">
                 <a href="{{url('/product?brand=ritz')}}">
-                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
+                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
                     <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/ritz.png')}}" alt="Image Description">
-                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">Ritz</h4>
-                    <p>Finding your perfect product</p>
+                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">RITZ Instrument Transformer ( ex MWB )</h4>
+                    <p>Medium Voltage Current & Voltage Transformer, Solid Insulated Busbar System ( MV Busbar), MV Dry Type Power Transformer & Sensors Transformer CVT</p>
                 </article>
                 </a>
             </div>
 
             <div class="col-md-6 col-lg-4">
                 <a href="{{url('/product?brand=te')}}">
-                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5">
+                <article class="u-shadow-v18 g-bg-white text-center rounded g-px-20 g-py-40 g-mb-5 h-100">
                     <img width="50%" class="d-inline-block img-fluid mb-4" src="{{asset('img/principal/te.png')}}" alt="Image Description">
-                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">TE</h4>
-                    <p>Finding your perfect product</p>
+                    <h4 class="h5 g-color-black g-font-weight-600 g-mb-10">TE Connectivity</h4>
+                    <p>Entrelec Terminal Blocks ( Screw Clamp - PI Spring), Essailec Test Blocks (Tceva - Cceva), Heavy Duty Connector & Distribution Block (DBL).</p>
                 </article>
                 </a>
             </div>
