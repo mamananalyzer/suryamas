@@ -20,36 +20,36 @@
               <div class="carousel-item active">
                 <img height="500px" src="{{asset('img/carousel/01. TE Test Block.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-dark">
-                  <h1 class="display-3 text-dark bg-light">TE Entrelec Test Block</h1>
-                  <p class="lead text-primary">TCEVA & CCEVA</p>
+                  <h1 class="display-3 text-dark bg">TE Entrelec Test Block</h1>
+                  <p class="lead text-dark bg">TCEVA & CCEVA</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="500px" src="{{asset('img/carousel/02. ABB LV.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-dark">
-                  <h1 class="display-3 text-dark bg-light">ABB Low Voltage Product</h5>
-                  <p class="lead text-primary">Circuit Breaker, Contactor, Relay CRM, Plug & Socket, ETC</p>
+                  <h1 class="display-4 text-dark bg">ABB Low Voltage Product</h5>
+                  <p class="lead text-dark bg">Circuit Breaker, Contactor, Relay CRM, Plug & Socket, ETC</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="500px" src="{{asset('img/carousel/03. SNK SNA SERIES.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-dark">
-                  <h1 class="display-3 text-dark bg-light">TE Entrelec Terminal Block</h5>
-                  <p class="lead text-primary">SNK - SNA - PI Spring</p>
+                  <h1 class="display-3 text-dark bg">TE Entrelec Terminal Block</h5>
+                  <p class="lead text-dark bg">SNK - SNA - PI Spring</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="500px" src="{{asset('img/carousel/04. RITZ INS. TRANS.jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-dark">
-                  <h1 class="display-3 text-dark bg-light">RITZ Instrument Transformer (Formerly WTW, MWB)</h5>
-                  <p class="lead text-primary">Medium Voltage (3,3 - 72kV) Current - Voltage Transformer, SIS Insulated Busbar, Dry Type Power Transformer</p>
+                  <h1 class="display-5 text-dark bg">RITZ Instrument Transformer <br> (Formerly WTW, MWB)</h5>
+                  <p class="lead text-dark bg">Medium Voltage (3,3 - 72kV) Current - Voltage Transformer, SIS Insulated Busbar, <br> Dry Type Power Transformer</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img height="500px" src="{{asset('img/carousel/05. Relay GE (1).jpg')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-dark">
-                  <h1 class="display-3 text-dark bg-light">GE Grids Solution (Alstom)</h5>
-                  <p class="lead text-primary">Transmision & Distribution Protection Relay</p>
+                  <h1 class="display-3 text-dark bg">GE Grids Solution (Alstom)</h5>
+                  <p class="lead text-dark bg">Transmision & Distribution Protection Relay</p>
                 </div>
               </div>
             </div>
