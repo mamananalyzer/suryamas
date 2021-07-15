@@ -279,7 +279,7 @@
             </div>
 
             <div class="mbr-figure pl-lg-5" style="width: 130%;">
-              <img src="/img/cross.jpg" alt="" title="" media-simple="true">
+              <img src="img/cross.jpg" alt="" title="" media-simple="true">
             </div>
         </div>
     </div>
