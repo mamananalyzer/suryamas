@@ -84,7 +84,7 @@
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
                     <div class="card-img">
-                        <img src="/img/cross.jpg" alt="business template" title="" media-simple="true">
+                        <img src="img/cross.jpg" alt="business template" title="" media-simple="true">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title pb-3 mbr-fonts-style display-7">Business Analytics</h4>
@@ -96,7 +96,7 @@
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
                     <div class="card-img">
-                        <img src="/img/cross.jpg" alt="business template" title="" media-simple="true">
+                        <img src="img/cross.jpg" alt="business template" title="" media-simple="true">
                     </div>
                     <div class="card-box ">
                         <h4 class="card-title pb-3 mbr-fonts-style display-7">
@@ -110,7 +110,7 @@
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
                     <div class="card-img">
-                        <img src="/img/cross.jpg" alt="business template" title="" media-simple="true">
+                        <img src="img/cross.jpg" alt="business template" title="" media-simple="true">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title pb-3 mbr-fonts-style display-7">
@@ -202,7 +202,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure pr-lg-5" style="width: 130%;">
-              <img src="/img/cross.jpg" alt="" title="" media-simple="true">
+              <img src="img/cross.jpg" alt="" title="" media-simple="true">
             </div>
             <div class="media-content px-3 align-self-center mbr-white py-2">
                     <p class="mbr-text testimonial-text mbr-fonts-style display-7"><span style="font-style: normal;">Consider strategies for decreasing expenses.</span><br></p>
