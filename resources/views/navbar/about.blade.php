@@ -51,8 +51,8 @@
         </div>
     </div>
 
-    <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;">
-        <div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(&quot;https://mobirise.com/bootstrap-4-theme/business-template/assets/images/mbr-1440x1080.jpg&quot;); position: fixed; top: 0px; left: 0px; width: 1349px; height: 1011.75px; overflow: hidden; pointer-events: none; margin-left: 0px; visibility: visible; transform: translate3d(0px, -333.666px, 0px);">
+    <div id="jarallax-container-0 text-center" style="position: absolute; top: 0px; width: 100%; height: 100%; z-index: -100;">
+        <div style="background-image: url(&quot;https://mobirise.com/bootstrap-4-theme/business-template/assets/images/mbr-1440x1080.jpg&quot;); width: 100%; height: 1011.75px; visibility: visible; transform: translate3d(0px, -333.666px, 0px);">
         </div>
     </div>
 </section>
