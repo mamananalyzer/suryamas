@@ -76,6 +76,22 @@
             </div>
         </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <video type="video/mp4" autoplay loop muted src="{{asset('video/TE’s DBL Power Distribution Blocks for Electrical Cabinets.mp4')}}" style="width: 100%;"></video>
+                </div>
+                <div class="col-md">
+                    <video type="video/mp4" autoplay loop muted src="{{asset('video/TE Heavy Duty Connectors Enhance Reliability and Flexibility.mp4')}}" style="width: 100%;"></video>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                        <video type="video/mp4" autoplay loop muted src="{{asset('video/TE’s SNK Terminal Blocks- The Innovative Range.mp4')}}" style="width: 100%;"></video>
+                </div>
+            </div>
+        </div>
+
         <div class="">
             <div class="row">
                 <div class="card border-light big col-md img-hover-zoom-big img-hover-zoom--xyz">
@@ -101,8 +117,9 @@
                     </div>
                     <div class="row">
                         <div class="col card border-light img-hover-zoom-sm img-hover-zoom--xyz">
-                            <a href="{{url('..')}}">
-                                <img src="{{asset('image/product/1.png')}}" style="width: 100%;" alt="">
+                            <a href="{{url('about')}}">
+                                <img src="{{asset('/img/sep.jpg')}}" style="width: 100%;" alt="">
+                                {{-- <video type="video/mp4" controls="autoplay" src="{{asset('video/abb.mp4')}}" style="width: 100%;"></video> --}}
                                 <div class="bottom-left">
                                     <h5 class="left">TRANSPORT AND LOGISTIC</h5>
                                     <p class="left">TRANSPORT AND LOGISTIC</p>
@@ -114,6 +131,11 @@
             </div>
         </div>
     </div>
+
+    <br>
+        <div class="container">
+            <video type="video/mp4" autoplay loop muted src="{{asset('video/abb.mp4')}}" style="width: 100%;"></video>
+        </div>
 
     <br>
 
@@ -261,6 +283,8 @@
     </div>
     <hr>
     <hr>
+
+
 </div>
 
 @endsection
