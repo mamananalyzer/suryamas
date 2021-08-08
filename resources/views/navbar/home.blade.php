@@ -139,7 +139,7 @@
             <video type="video/mp4" autoplay loop muted src="{{asset('video/abb.mp4')}}" style="width: 100%;"></video>
         </div>
 
-    <br>
+    {{-- <br> --}}
 
     <div class="container">
         <div class="row">
