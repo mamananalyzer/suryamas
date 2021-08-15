@@ -33,6 +33,14 @@
     </script>
     <!--End of Tawk.to Script-->
 
+    {{-- zoom 90 percent --}}
+    <script type="text/javascript">
+        function zoom() {
+            document.body.style.zoom = "90%"
+        }
+    </script>
+    {{-- endzoom 90 percent --}}
+
     <link rel="icon" href="{{url('img/sep.jpg')}}">
     <title>@yield('title')</title>
   </head>
