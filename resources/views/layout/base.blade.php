@@ -134,7 +134,7 @@
         <div class="col-md-6">
             <h6>MAPS</h6>
             <hr class="bg-warning">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.540723636199!2d106.73745131413733!3d-6.192150662388513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f76ef0b802cd%3A0xb05189fedb7cadb6!2sPT.%20Suryamas%20elsindo%20primatama!5e0!3m2!1sen!2sid!4v1606273852027!5m2!1sen!2sid" width="600" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe class="col-md-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.540723636199!2d106.73745131413733!3d-6.192150662388513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f76ef0b802cd%3A0xb05189fedb7cadb6!2sPT.%20Suryamas%20elsindo%20primatama!5e0!3m2!1sen!2sid!4v1606273852027!5m2!1sen!2sid" width="600" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
         {{-- <div class="col-md-3">
             <h6>SITEMAP</h6>
